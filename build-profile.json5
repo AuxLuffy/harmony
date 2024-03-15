@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/sunzhangfei/.ohos/config/auto_debug_harmony_learn3_com.luffy.harmonylearn_260086000021724946.cer",
+          "storePassword": "0000001B3ACF6603FCE5BC3A559D849DBF99BBF54BA2898A8038BB843ACF89BD70E159B3CF0231CAE9AF11",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B0BCC48696CA70DC9A380B9A60668CFFA7A683972F2FA6EE549698CFE573E7DE6DBCF5252DF0360",
+          "profile": "/Users/sunzhangfei/.ohos/config/auto_debug_harmony_learn3_com.luffy.harmonylearn_260086000021724946.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/sunzhangfei/.ohos/config/auto_debug_harmony_learn3_com.luffy.harmonylearn_260086000021724946.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
